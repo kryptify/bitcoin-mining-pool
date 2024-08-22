@@ -1,0 +1,20 @@
+{
+    "name": "mining-pool",
+    "version": "1.2.1",
+    "license": "GPL-2.0",
+    "author": "kryptify",
+    "description": "High performance Node.js (with native C addons) mining pool for Cryptonote based coins, optimized for Charnacoin, with the support of Forknote software such as Bytecoin, Dashcoin, etc..",
+    "dependencies": {
+        "async": "1",
+        "base58-native": "*",
+        "bignum": "0.13.1",
+        "cli-color": "*",
+        "cryptonote-util": "*",
+        "dateformat": "^5.0.3",
+        "multi-hashing": "*",
+        "redis": "^4.7.0"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
